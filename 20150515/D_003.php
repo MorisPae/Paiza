@@ -1,8 +1,8 @@
 <?php
     //掛け算のリスト
     $n = trim(fgets(STDIN));
-    for($i = 1; $i <= 9; $i++) {
-        $output = $n * $i;
+    for($i = 0; $i < 9; $i++) {
+        $output = $n * ($i + 1);
         if($i < 9) {
             print($output." ");
         }
